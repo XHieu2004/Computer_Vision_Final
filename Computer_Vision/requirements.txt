@@ -1,0 +1,4 @@
+opencv-python
+numpy
+# torch torchvision (Usually handled by YOLOv5 setup or specific to its version)
+# yolov5 (If installing as a package, otherwise cloned repository)

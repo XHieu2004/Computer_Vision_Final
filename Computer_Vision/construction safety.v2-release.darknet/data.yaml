@@ -1,0 +1,11 @@
+# filepath: D:\Computer_Vision\construction safety.v2-release.darknet\data.yaml
+# Path to the root directory of your dataset, relative to the 'yolov5/' directory where train.py is run.
+path: ../construction safety.v2-release.darknet
+
+train: train  # Directory for training images (and labels) relative to 'path'
+val: valid    # Directory for validation images (and labels) relative to 'path'
+test: test    # Optional: Directory for test images (and labels) relative to 'path'
+
+# Classes
+nc: 5  # Number of classes
+names: ['person', 'helmet', 'vest', 'no-helmet', 'no-vest'] # Class names
